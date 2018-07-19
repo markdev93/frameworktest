@@ -1,0 +1,55 @@
+/********** MEDIA QUIRIES **********/
+header{
+  height: 80vh;
+  text-transform: capitalize;
+  color: $white;
+  background: #00C0DD; /* fallback */
+  background: linear-gradient(to right,rgba(0, 192, 221, 0.8), rgba(0, 244, 152, 0.8)), url("../../img/deadpool-hero.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+.main-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  li{
+    display: inline-block;
+    padding: 1em;
+  }
+  a{
+    color: $white;
+  }
+  .nav-bar{
+    a{
+      &:hover{
+        color: $dark-green;
+      }
+    }
+  }
+  .brand{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+  }
+}
+
+.hero{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.hero-content{
+  color: $white;
+  text-transform: capitalize;
+}
+/* 720px */
+@include media(45em){
+
+}
+
+/* 920px */
+@include media(57.5em){
+
+}

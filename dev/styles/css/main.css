@@ -84,5 +84,45 @@ p {
 @media (min-width: 57.5em) {
   .container {
     width: 85%; } }
+/********** MEDIA QUIRIES **********/
+header {
+  height: 80vh;
+  text-transform: capitalize;
+  color: #f3f3f3;
+  background: #00C0DD;
+  /* fallback */
+  background: linear-gradient(to right, rgba(0, 192, 221, 0.8), rgba(0, 244, 152, 0.8)), url("../../img/deadpool-hero.jpg") no-repeat center;
+  background-size: cover;
+  position: relative; }
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px; }
+  .main-nav li {
+    display: inline-block;
+    padding: 1em; }
+  .main-nav a {
+    color: #f3f3f3; }
+  .main-nav .nav-bar a:hover {
+    color: #03A87C; }
+  .main-nav .brand {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px; }
+
+.hero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.hero-content {
+  color: #f3f3f3;
+  text-transform: capitalize; }
+
+/* 720px */
+/* 920px */
 
 /*# sourceMappingURL=main.css.map */
