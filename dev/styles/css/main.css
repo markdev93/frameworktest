@@ -1,0 +1,88 @@
+/********** BASE STYLES **********/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Archivo", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #231F20;
+  background: #ffffff; }
+
+li {
+  list-style: none; }
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #03A87C; }
+  a:hover {
+    color: #34E79A; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Archivo", "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+  text-transform: capitalize; }
+
+h1 {
+  font-size: 1.75em;
+  /* 28px */ }
+
+h2 {
+  font-size: 1.5em;
+  /* 24px */ }
+
+h3 {
+  font-size: 1.375em;
+  /* 22px */ }
+
+h4 {
+  font-size: 1.25em;
+  /* 20px */ }
+
+h5 {
+  font-size: 1.125em;
+  /* 18px */ }
+
+h6 {
+  font-size: 1em;
+  /* 16px */ }
+
+p {
+  font-size: 1.125em;
+  /* 18px */ }
+
+.container {
+  margin: 0 auto;
+  width: 95%; }
+
+/********** MEDIA QUIRIES **********/
+/* 720px */
+@media (min-width: 45em) {
+  h1 {
+    font-size: 2.125em;
+    /* 34px */ }
+
+  h2 {
+    font-size: 1.625em;
+    /* 26px */ }
+
+  h3 {
+    font-size: 1.5em;
+    /* 24px */ }
+
+  h6 {
+    font-size: 0.875em;
+    /* 14px */ }
+
+  .container {
+    width: 90%; } }
+/* 920px */
+@media (min-width: 57.5em) {
+  .container {
+    width: 85%; } }
+
+/*# sourceMappingURL=main.css.map */
